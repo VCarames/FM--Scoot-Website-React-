@@ -7,7 +7,9 @@
 @use "components/map";
 @use "components/joblistings";
 
+@use "layouts/body";
 @use "layouts/header";
+@use "layouts/main";
 @use "layouts/footer";
 
 @use "sections/intro";
