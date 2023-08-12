@@ -108,3 +108,30 @@
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .values-section {
+    gap: 2.5rem;
+
+    margin: 0 auto 6.13rem auto;
+
+    &--about {
+      margin: 0 auto 7.19rem auto;
+    }
+    &--careers {
+      margin: 0 auto 7.13rem auto;
+    }
+
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.88rem;
+
+      &-item {
+        max-width: 21.88rem;
+
+        gap: 2.19rem;
+      }
+    }
+  }
+}
