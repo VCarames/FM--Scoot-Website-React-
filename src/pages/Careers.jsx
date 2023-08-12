@@ -7,6 +7,14 @@ function Careers() {
     <>
       <Header />
       <main>
+        <section className="intro-section intro-section__careers">
+          <div className="intro-section__content intro-section__content--careers">
+            <h1 className="intro-section__heading intro-section__heading--careers">
+              Careers
+            </h1>
+          </div>
+        </section>
+
         <CTA />
       </main>
       <Footer />
