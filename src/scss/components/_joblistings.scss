@@ -89,3 +89,29 @@
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .careers-section {
+    padding: 0 2rem 0 2rem;
+    margin: 0 auto 10rem auto;
+
+    &__list {
+      display: grid;
+      gap: 1.5rem;
+
+      &-info {
+        justify-self: start;
+      }
+
+      &-item {
+        text-align: start;
+
+        padding: 2rem 4rem 2.19rem 2.5rem;
+      }
+
+      &-btn {
+        padding: 0.88rem 4.16rem 0.88rem 3.91rem;
+      }
+    }
+  }
+}
