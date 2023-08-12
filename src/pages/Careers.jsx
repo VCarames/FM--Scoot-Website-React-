@@ -1,6 +1,7 @@
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import JobListings from "../components/JobListings";
 import Values from "../components/Values";
 
 function Careers() {
@@ -44,6 +45,10 @@ function Careers() {
         </section>
 
         <Values />
+
+        <section className="careers-section">
+          <JobListings />
+        </section>
 
         <CTA />
       </main>
