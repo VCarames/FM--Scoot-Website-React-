@@ -1,0 +1,50 @@
+.locations-section {
+  position: relative;
+  display: grid;
+  justify-content: center;
+
+  padding: 0 2rem;
+  margin-bottom: 4.5rem;
+
+  &__picture {
+    position: relative;
+    margin-bottom: 2.13rem;
+  }
+
+  &__list-cities {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  &__list-city {
+    font-family: var(--ff-two);
+    font-weight: var(--ff-700);
+    font-size: var(--fs-24);
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.07rem;
+    color: var(--primary-clr-two);
+  }
+}
+
+.city {
+  background: rgba(252, 183, 43, 0.15);
+
+  &--new-york {
+    padding: 1.38rem 6.25rem 1.38rem 6.25rem;
+  }
+
+  &--london {
+    padding: 1.38rem 7.09rem 1.38rem 7.16rem;
+  }
+
+  &--yokohama {
+    padding: 1.38rem 6.66rem 1.38rem 6.72rem;
+  }
+
+  &--jakarta {
+    padding: 1.38rem 6.25rem 1.38rem 6.25rem;
+  }
+}
