@@ -42,3 +42,16 @@
     max-width: 8.13rem;
   }
 }
+
+@media (min-width: 43.75em) {
+  .cta-section {
+    padding: 3.88rem 9.69rem 3.88rem 9.75rem;
+
+    &__heading {
+      max-width: 16ch;
+      font-size: var(--fs-48);
+      line-height: 1;
+      letter-spacing: -0.13rem;
+    }
+  }
+}
