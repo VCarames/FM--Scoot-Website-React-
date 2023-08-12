@@ -43,3 +43,26 @@
     }
   }
 }
+
+@media (min-width: 43.75em) {
+  .footer {
+    padding: 2.19rem 2.5rem 2rem 2.44rem;
+
+    &__content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__info {
+      flex-direction: row;
+      gap: 3.88rem;
+    }
+
+    &__nav-list {
+      flex-direction: row;
+      gap: 2rem;
+
+      margin-bottom: 0;
+    }
+  }
+}
