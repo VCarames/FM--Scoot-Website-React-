@@ -1,8 +1,17 @@
 .intro-section__hero {
+  position: relative;
   background-image: url(/src/assets/images/home-hero-mobile.jpg);
 
   margin: 4rem 0 7.5rem 0;
   overflow: hidden;
+}
+
+.intro-section__content--hero::before {
+  position: absolute;
+  content: url(/patterns/right-arrow.svg);
+  bottom: 1.38rem;
+  left: -19.5rem;
+  width: 100%;
 }
 
 .intro-section__about {
@@ -15,6 +24,7 @@
 }
 
 .intro-section {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,23 +48,6 @@
   text-align: center;
 
   padding: 7.19rem 2rem 11.19rem 2rem;
-  margin: 0 auto;
-}
-
-.intro-section--404 {
-  background-image: url(/src/assets/images/home-hero-mobile.jpg);
-}
-
-.intro-section__content--404 {
-  max-width: 73.38rem;
-
-  display: grid;
-  place-content: center;
-  gap: 1.5rem;
-
-  text-align: center;
-
-  padding: 140px 2rem 11.19rem 2rem;
   margin: 0 auto;
 }
 
@@ -104,8 +97,24 @@
     margin: 6rem 0 7.63rem 0;
   }
 
+  .intro-section:before {
+    position: absolute;
+    content: url(/patterns/white-circles.svg);
+    top: 6.25rem;
+    right: -1.94rem;
+  }
+
+  .intro-section__hero::before {
+    top: 33.88rem;
+  }
+
   .intro-section__content--hero {
     padding: 8.56rem 6.13rem 13.56rem 6.06rem;
+  }
+
+  .intro-section__content--hero::before {
+    bottom: 1.69rem;
+    left: -17.81rem;
   }
 
   .intro-section__container {
@@ -125,12 +134,6 @@
 
     padding: 6.5rem 2rem 4.5rem 5.94rem;
     margin-bottom: 9rem;
-  }
-
-  .intro-section--404 {
-    background-image: url(/src/assets/images/home-hero-tablet.jpg);
-
-    padding: 160px 2rem 11.19rem 2rem;
   }
 
   .intro-section__heading {
@@ -177,17 +180,30 @@
     margin-bottom: 7.06rem;
   }
 
-  .intro-section--404 {
-    background-image: url(/src/assets/images/home-hero-desktop.jpg);
-
-    padding: 12.5rem 2rem 11.19rem 2rem;
-  }
-
   .intro-section__content--hero {
+    position: relative;
     gap: 2.5rem;
 
     text-align: start;
     padding: 9.56rem 6.13rem 9.5rem 2rem;
+  }
+
+  .intro-section__hero::before {
+    top: 26.38rem;
+    right: -3rem;
+  }
+
+  .intro-section__content--hero::before {
+    bottom: 9.06rem;
+    left: 35.75rem;
+  }
+
+  .intro-section__content--hero::after {
+    position: absolute;
+    content: url(/patterns/line-yellow.svg);
+    bottom: 17.56rem;
+    left: -8.31rem;
+    stroke: var(--primary-clr-one);
   }
 
   .intro-section__container {

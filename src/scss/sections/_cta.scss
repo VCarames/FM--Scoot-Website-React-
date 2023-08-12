@@ -1,7 +1,15 @@
 .cta-section {
-  background: #495567;
+  position: relative;
+  background: var(--primary-clr-two);
 
   padding: 5.5rem 2rem 5.5rem 2rem;
+
+  &::before {
+    position: absolute;
+    content: url(/patterns/semi-circles.svg);
+    bottom: -0.44rem;
+    right: -10.63rem;
+  }
 
   &__content {
     max-width: 69.38rem;

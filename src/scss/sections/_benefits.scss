@@ -53,6 +53,52 @@
   &__btn {
     padding: 0.88rem 2.75rem 0.81rem 2.75rem;
   }
+
+  &__pattern {
+    position: relative;
+  }
+
+  &__pattern--one::before {
+    position: absolute;
+    content: url(/patterns/left-downward-arrow.svg);
+    bottom: 23.5rem;
+    right: -26.5rem;
+  }
+
+  &__pattern--two::before {
+    position: absolute;
+    content: url(/patterns/right-arrow.svg);
+    top: -0.5rem;
+    left: -13.5rem;
+  }
+
+  &__pattern--three::before {
+    position: absolute;
+    content: url(/patterns/left-downward-arrow.svg);
+    top: -0.06rem;
+    right: -34.63rem;
+  }
+
+  &__pattern--four::before {
+    position: absolute;
+    content: url(/patterns/left-upward-arrow.svg);
+    top: 8rem;
+    right: -26.5rem;
+  }
+
+  &__pattern--five::before {
+    position: absolute;
+    content: url(/patterns/right-arrow.svg);
+    top: -0.44rem;
+    left: -8.5rem;
+  }
+
+  &__pattern--six::before {
+    position: absolute;
+    content: url(/patterns/left-downward-arrow.svg);
+    top: 10.31rem;
+    right: -26.5rem;
+  }
 }
 
 @media (min-width: 43.75em) {
@@ -83,6 +129,91 @@
       font-size: var(--fs-48);
       line-height: 1;
       letter-spacing: -0.13rem;
+    }
+
+    &__pattern--one:before {
+      bottom: 21.81rem;
+      right: -2.38rem;
+    }
+
+    &__pattern--one::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      top: 0;
+      right: -23.88rem;
+
+      z-index: -4;
+    }
+
+    &__pattern--two::before {
+      top: 0.5rem;
+      left: -8.13rem;
+    }
+
+    &__pattern--two::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      top: 0.5rem;
+      left: -23.57rem;
+
+      z-index: -4;
+    }
+    &__pattern--three::before {
+      top: 5.94rem;
+      right: -26.13rem;
+    }
+
+    &__pattern--three::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      top: 1rem;
+      right: -27.69rem;
+
+      z-index: -4;
+    }
+
+    &__pattern--four::before {
+      top: 16.44rem;
+      right: -2.38rem;
+    }
+
+    &__pattern--four::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      top: 0;
+      right: -23.88rem;
+
+      z-index: -4;
+    }
+
+    &__pattern--five::before {
+      top: 0.13rem;
+      left: -8.13rem;
+    }
+
+    &__pattern--five::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      top: -0.06rem;
+      left: -23.56rem;
+
+      z-index: -4;
+    }
+
+    &__pattern--six::before {
+      position: absolute;
+      content: url(/patterns/left-downward-arrow.svg);
+      top: 18.69rem;
+      right: -2.38rem;
+    }
+
+    &__pattern--six::after {
+      position: absolute;
+      content: url(/patterns/circle.svg);
+      bottom: 22.56rem;
+      right: -23.88rem;
+
+      z-index: -4;
     }
   }
 }
@@ -130,6 +261,65 @@
     &__text {
       max-width: 49ch;
       margin-bottom: 0.81rem;
+    }
+
+    &__pattern--one::before {
+      bottom: -0.75rem;
+      right: -2rem;
+    }
+
+    &__pattern--one::after {
+      top: 0.5rem;
+      right: -23.5rem;
+    }
+
+    &__pattern--two::before {
+      top: 0.44rem;
+      left: -8.06rem;
+    }
+
+    &__pattern--two::after {
+      top: 0.5rem;
+      left: -23.5rem;
+    }
+
+    &__pattern--three::before {
+      top: 5.31rem;
+      right: -25.75rem;
+    }
+
+    &__pattern--three::after {
+      top: 0.5rem;
+      right: -23.5rem;
+    }
+
+    &__pattern--four::before {
+      top: 16.44rem;
+      right: -2rem;
+    }
+
+    &__pattern--four::after {
+      right: -23.5rem;
+    }
+
+    &__pattern--five::before {
+      top: 0;
+      left: -8.07rem;
+    }
+
+    &__pattern--five::after {
+      top: -0.06rem;
+      left: -23.56rem;
+    }
+
+    &__pattern--six::before {
+      top: 19.13rem;
+      right: -2rem;
+    }
+
+    &__pattern--six::after {
+      bottom: -0.38rem;
+      right: -23.5rem;
     }
   }
 }
