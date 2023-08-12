@@ -80,3 +80,31 @@
     }
   }
 }
+
+@media (min-width: 43.75em) {
+  .values-section {
+    gap: 2.75rem;
+    margin: 0 auto 7rem auto;
+
+    &--careers {
+      margin: 0 auto 5.5rem auto;
+    }
+
+    &--about {
+      margin: 0 0 5.06rem 0;
+    }
+
+    &__heading {
+      font-size: var(--fs-48);
+      letter-spacing: -0.13rem;
+    }
+
+    &__list-item {
+      gap: 2.19rem;
+    }
+
+    &__list-heading {
+      margin-bottom: 0;
+    }
+  }
+}
