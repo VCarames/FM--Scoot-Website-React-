@@ -1,6 +1,7 @@
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Values from "../components/Values";
 
 function About() {
   return (
@@ -56,6 +57,8 @@ function About() {
             </div>
           </div>
         </section>
+
+        <Values />
 
         <CTA />
       </main>

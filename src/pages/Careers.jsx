@@ -1,6 +1,7 @@
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Values from "../components/Values";
 
 function Careers() {
   return (
@@ -41,6 +42,8 @@ function Careers() {
             </div>
           </div>
         </section>
+
+        <Values />
 
         <CTA />
       </main>
