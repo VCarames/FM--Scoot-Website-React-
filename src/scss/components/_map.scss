@@ -48,3 +48,129 @@
     padding: 1.38rem 6.25rem 1.38rem 6.25rem;
   }
 }
+
+@media (min-width: 43.75em) {
+  .locations-section {
+    max-width: 47.19rem;
+    margin: 0 auto;
+
+    &__picture {
+      margin-bottom: 4rem;
+    }
+
+    &__list-city {
+      font-size: var(--fs-13);
+      line-height: 2.15;
+      text-align: center;
+      letter-spacing: -0.04rem;
+    }
+  }
+
+  .city {
+    background: var(--primary-clr-one);
+  }
+
+  .item--new-york {
+    position: absolute;
+    top: 3.25rem;
+    left: 8.19rem;
+  }
+
+  .city--new-york {
+    padding: 0.13rem 1.88rem 0.13rem 1.88rem;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 0.69rem solid transparent;
+      border-right: 0.69rem solid transparent;
+      border-top: 1rem solid var(--primary-clr-one);
+      z-index: 3;
+      bottom: -0.56rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .item--london {
+    position: absolute;
+    top: 1.56rem;
+    left: 17.25rem;
+  }
+
+  .city--london {
+    padding: 0.13rem 2.34rem;
+    background: #fcb72b;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 0.69rem solid transparent;
+      border-top: 1rem solid var(--primary-clr-one);
+      z-index: 3;
+      bottom: -0.56rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .item--jakarta {
+    position: absolute;
+    top: 10.56rem;
+    right: 7.75rem;
+  }
+
+  .city--jakarta {
+    position: relative;
+
+    background: var(--primary-clr-one);
+
+    padding: 0.13rem 2.06rem 0.13rem 2.13rem;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 0.69rem solid transparent;
+      border-right: 0.69rem solid transparent;
+      border-top: 1rem solid var(--primary-clr-one);
+      z-index: 3;
+      bottom: -0.56rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .item--yokohama {
+    position: absolute;
+    top: 3.94rem;
+    right: 2.69rem;
+
+    padding: 0.13rem 1.88rem;
+  }
+
+  .city--yokohama {
+    position: relative;
+    background: #fcb72b;
+    padding: 0.13rem 1.88rem;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 0.69rem solid transparent;
+      border-right: 0.69rem solid transparent;
+      border-top: 1rem solid var(--primary-clr-one);
+      z-index: 3;
+      bottom: -0.56rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
