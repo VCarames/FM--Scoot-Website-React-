@@ -100,3 +100,11 @@
     max-width: 11.38rem;
   }
 }
+
+@media (hover: hover) {
+  .download--apple:is(:hover, :focus, :focus-visible),
+  .download--android:is(:hover, :focus, :focus-visible) {
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+}

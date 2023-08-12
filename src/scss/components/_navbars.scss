@@ -8,7 +8,7 @@
   transform: translateY(-50%);
   z-index: 7;
 
-  padding: 0.63rem;
+  padding: 0.38rem;
 
   cursor: pointer;
 
@@ -167,5 +167,19 @@
 
       background-color: transparent;
     }
+  }
+}
+
+@media (hover: hover) {
+  [aria-controls="header__nav-menu-list"]:is(:hover, :focus, :focus-visible) {
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+
+  .header__nav-menu-link:is(:hover, :focus, :focus-visible) {
+    color: var(--primary-clr-one);
+
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
   }
 }

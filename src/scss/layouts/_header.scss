@@ -57,3 +57,10 @@
     margin-right: 2.94rem;
   }
 }
+
+@media (hover: hover) {
+  .header__logo:is(:hover, :focus, :focus-visible) {
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+}

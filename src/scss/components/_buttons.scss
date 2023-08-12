@@ -17,3 +17,13 @@
 
   transition: 0.8s all;
 }
+
+@media (hover: hover) {
+  .button:is(:hover, :focus, :focus-visible) {
+    color: var(--primary-clr-one);
+    background: transparent;
+
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+}

@@ -66,3 +66,25 @@
     }
   }
 }
+
+@media (hover: hover) {
+  .footer__logo:is(:hover, :focus, :focus-visible) {
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+
+  .footer__nav-list-link:is(:hover, :focus, :focus-visible) {
+    color: var(--primary-clr-one);
+    background: transparent;
+
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+
+  .footer__social-list-icon:is(:hover, :focus, :focus-visible) {
+    fill: var(--neutral-clr-two);
+
+    outline: solid 0.13rem var(--primary-clr-one);
+    outline-offset: 0.25rem;
+  }
+}
