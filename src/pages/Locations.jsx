@@ -1,6 +1,7 @@
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Map from "../components/Map";
 
 function Locations() {
   return (
@@ -13,6 +14,12 @@ function Locations() {
               Locations
             </h1>
           </div>
+        </section>
+
+        <section className="locations-section">
+          <h2 className="visually-hidden">Our Locations</h2>
+
+          <Map />
         </section>
 
         <CTA />
