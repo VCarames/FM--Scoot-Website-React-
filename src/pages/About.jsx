@@ -1,3 +1,5 @@
+import AccordionOne from "../components/AccordionOne";
+import AccordionTwo from "../components/AccordionTwo";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -59,6 +61,13 @@ function About() {
         </section>
 
         <Values />
+
+        <section className="faqs-section">
+          <h2 className="faqs-section__heading">FAQs</h2>
+
+          <AccordionOne />
+          <AccordionTwo />
+        </section>
 
         <CTA />
       </main>
