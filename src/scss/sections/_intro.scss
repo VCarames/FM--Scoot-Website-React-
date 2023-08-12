@@ -41,6 +41,23 @@
   margin: 0 auto;
 }
 
+.intro-section--404 {
+  background-image: url(/src/assets/images/home-hero-mobile.jpg);
+}
+
+.intro-section__content--404 {
+  max-width: 73.38rem;
+
+  display: grid;
+  place-content: center;
+  gap: 1.5rem;
+
+  text-align: center;
+
+  padding: 140px 2rem 11.19rem 2rem;
+  margin: 0 auto;
+}
+
 .intro-section__content--about,
 .intro-section__content--locations,
 .intro-section__content--careers {
@@ -110,6 +127,12 @@
     margin-bottom: 9rem;
   }
 
+  .intro-section--404 {
+    background-image: url(/src/assets/images/home-hero-tablet.jpg);
+
+    padding: 160px 2rem 11.19rem 2rem;
+  }
+
   .intro-section__heading {
     font-size: var(--fs-56);
     line-height: 1;
@@ -152,6 +175,12 @@
 
   .intro-section__careers {
     margin-bottom: 7.06rem;
+  }
+
+  .intro-section--404 {
+    background-image: url(/src/assets/images/home-hero-desktop.jpg);
+
+    padding: 12.5rem 2rem 11.19rem 2rem;
   }
 
   .intro-section__content--hero {
