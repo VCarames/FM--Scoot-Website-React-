@@ -46,3 +46,14 @@
     margin-right: 3.63rem;
   }
 }
+
+@media (min-width: 62.5em) {
+  .header__content {
+    padding: 1.38rem 2rem 1.19rem 2.25rem;
+  }
+
+  .header__logo {
+    width: 8.8rem;
+    margin-right: 2.94rem;
+  }
+}
