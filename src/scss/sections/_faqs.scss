@@ -35,3 +35,24 @@
     }
   }
 }
+
+@media (min-width: 43.75em) {
+  .faqs-section {
+    gap: 4.13rem;
+
+    padding: 0 2.38rem;
+    margin: 0 auto 7.56rem auto;
+
+    &__heading {
+      font-size: var(--fs-48);
+      line-height: 1;
+      letter-spacing: -0.13rem;
+    }
+
+    &__content-heading {
+      font-size: var(--fs-40);
+      line-height: 1.2;
+      letter-spacing: -0.11rem;
+    }
+  }
+}

@@ -48,3 +48,23 @@
 details[open] > .accordion__details-heading img {
   transform: rotate(180deg);
 }
+
+@media (min-width: 43.75em) {
+  .accordion--how {
+    gap: 1.5rem;
+  }
+
+  .accordion--safe {
+    gap: 1rem;
+  }
+
+  .accordion__details {
+    padding: 1.94rem 2.06rem 2rem 2.56rem;
+
+    &-heading {
+      font-size: var(--fs-24);
+      line-height: 1.17;
+      letter-spacing: -0.07rem;
+    }
+  }
+}
