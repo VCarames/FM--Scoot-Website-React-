@@ -32,3 +32,17 @@
 .scrolled {
   box-shadow: 0 0.25rem 0.5rem var(--box-shadow-scroll);
 }
+
+@media (min-width: 43.75em) {
+  .header__content {
+    flex-direction: row;
+    justify-content: normal;
+
+    padding: 1.31rem 2.5rem 1.19rem 2.44rem;
+  }
+
+  .header__logo {
+    width: 8.8rem;
+    margin-right: 3.63rem;
+  }
+}

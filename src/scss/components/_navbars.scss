@@ -102,3 +102,70 @@
     z-index: 3;
   }
 }
+
+@media (min-width: 43.75em) {
+  .header__nav {
+    width: 100%;
+
+    inset-block-start: 1rem;
+    inset-inline-end: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  [aria-controls="header__nav-menu-list"] {
+    all: unset;
+    display: none;
+    position: relative;
+    z-index: 1;
+  }
+
+  [aria-expanded="false"] + .header__nav-menu {
+    transform: none;
+    visibility: visible;
+  }
+
+  .header__nav-menu {
+    position: initial;
+    top: 0;
+    right: 0;
+
+    flex-direction: row;
+    gap: 2.69rem;
+
+    min-height: auto;
+    width: 100%;
+
+    padding: 0;
+
+    background: transparent;
+    box-shadow: none;
+
+    &-list {
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    &-link {
+      font-size: var(--fs-20);
+      line-height: 1.67;
+      color: var(--primary-clr-four);
+    }
+
+    &-btn {
+      padding: 0.88rem 2.44rem 0.88rem 2.44rem;
+      margin: 0;
+    }
+  }
+
+  .disable-scroll {
+    overflow: auto;
+
+    &::before {
+      position: absolute;
+
+      background-color: transparent;
+    }
+  }
+}
