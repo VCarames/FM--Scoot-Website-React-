@@ -54,3 +54,35 @@
     padding: 0.88rem 2.75rem 0.81rem 2.75rem;
   }
 }
+
+@media (min-width: 43.75em) {
+  .benefits-section {
+    margin-bottom: 8.13rem;
+
+    &--careers {
+      margin-bottom: 7.5rem;
+    }
+
+    &__about {
+      margin-bottom: 7.69rem;
+    }
+
+    &__content {
+      gap: 3.44rem;
+
+      &--careers {
+        gap: 3.94rem;
+      }
+
+      &-container {
+        gap: 2.5rem;
+      }
+    }
+
+    &__heading {
+      font-size: var(--fs-48);
+      line-height: 1;
+      letter-spacing: -0.13rem;
+    }
+  }
+}
