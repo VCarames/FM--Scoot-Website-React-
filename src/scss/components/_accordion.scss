@@ -68,3 +68,13 @@ details[open] > .accordion__details-heading img {
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .accordion--how {
+    gap: 1rem;
+  }
+
+  .accordion__details {
+    padding: 2rem 2.5rem 2rem 2.5rem;
+  }
+}
