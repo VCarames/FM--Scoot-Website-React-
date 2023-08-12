@@ -1,5 +1,11 @@
+import Header from "../components/Header";
+
 function Careers() {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default Careers;

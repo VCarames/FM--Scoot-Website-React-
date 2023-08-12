@@ -1,5 +1,11 @@
+import Header from "../components/Header";
+
 function NotFound() {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default NotFound;
