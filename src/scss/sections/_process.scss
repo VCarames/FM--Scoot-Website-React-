@@ -94,3 +94,24 @@
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .process-section {
+    margin: 0 auto 12rem auto;
+
+    &__list {
+      flex-direction: row;
+      gap: 1.88rem;
+
+      &__list-content {
+        align-items: start;
+        gap: 1.69rem;
+      }
+
+      &-item {
+        flex-direction: column;
+        gap: 2.5rem;
+      }
+    }
+  }
+}
