@@ -5,6 +5,7 @@ function AccordionTwo() {
     <>
       <div className="faqs-section__content">
         <h3 className="faqs-section__content-heading">Safe driving</h3>
+
         <div className="faqs-section__accordion accordion--safe">
           <details className="accordion__details" open>
             <summary className="accordion__details-heading">
