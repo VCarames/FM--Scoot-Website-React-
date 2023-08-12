@@ -174,3 +174,86 @@
     }
   }
 }
+
+@media (min-width: 73.44em) {
+  .locations-section {
+    max-width: 73.44rem;
+    margin: 0 auto 3.5rem auto;
+
+    &__list-city {
+      font-size: var(--fs-24);
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: -0.07rem;
+    }
+  }
+
+  .item--new-york {
+    position: absolute;
+    top: 4.44rem;
+    left: 11.25rem;
+  }
+
+  .city--new-york {
+    padding: 1.38rem 2.47rem 1.38rem 2.41rem;
+
+    background: var(--primary-clr-one);
+
+    &::before {
+      border-left: 1rem solid transparent;
+      border-right: 1rem solid transparent;
+
+      bottom: -1rem;
+    }
+  }
+
+  .item--london {
+    top: 1.13rem;
+    left: 26.56rem;
+  }
+
+  .city--london {
+    padding: 1.38rem 3.31rem;
+
+    &::before {
+      border-left: 1rem solid transparent;
+      border-right: 1rem solid transparent;
+
+      bottom: -1rem;
+    }
+  }
+
+  .item--yokohama {
+    top: 4.81rem;
+    right: 4.38rem;
+  }
+
+  .city--yokohama {
+    padding: 1.38rem 2.47rem 1.38rem 2.41rem;
+
+    &::before {
+      border-left: 1rem solid transparent;
+      border-right: 1rem solid transparent;
+
+      bottom: -1rem;
+    }
+  }
+
+  .item--jakarta {
+    top: 15.69rem;
+    right: 11.06rem;
+  }
+
+  .city--jakarta {
+    position: relative;
+
+    padding: 1.38rem 2.88rem;
+
+    &::before {
+      border-left: 1rem solid transparent;
+      border-right: 1rem solid transparent;
+
+      bottom: -1rem;
+    }
+  }
+}
