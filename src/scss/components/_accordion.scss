@@ -1,0 +1,50 @@
+.faqs-section__accordion {
+  display: grid;
+  gap: 1rem;
+}
+
+.accordion__details {
+  padding: 2rem 1.69rem 2rem 2rem;
+  background: var(--neutral-clr-three);
+
+  cursor: pointer;
+  transition: 0.8s all;
+
+  @media (hover: hover) {
+    &:is(:hover, :focus-visible) {
+      background: var(--neutral-clr-four);
+    }
+  }
+
+  &-heading::-webkit-details-marker {
+    display: none;
+  }
+
+  &-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    font-family: var(--ff-two);
+    font-weight: var(--ff-700);
+    font-size: var(--fs-18);
+    line-height: 1.33;
+    letter-spacing: -0.05rem;
+    color: var(--primary-clr-two);
+  }
+
+  &-text {
+    font-family: var(--ff-one);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-15);
+    line-height: 1.67;
+    color: var(--primary-clr-two);
+
+    margin-top: 1.5rem;
+  }
+}
+
+details[open] > .accordion__details-heading img {
+  transform: rotate(180deg);
+}

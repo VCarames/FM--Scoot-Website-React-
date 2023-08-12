@@ -3,6 +3,7 @@
 
 @use "components/navbars";
 @use "components/buttons";
+@use "components/accordion";
 
 @use "layouts/header";
 @use "layouts/footer";
@@ -11,4 +12,5 @@
 @use "sections/process";
 @use "sections/benefits";
 @use "sections/values";
+@use "sections/faqs";
 @use "sections/cta";
