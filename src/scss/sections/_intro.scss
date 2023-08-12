@@ -79,3 +79,45 @@
 .intro-section__cta {
   padding: 0.88rem 2.38rem 0.75rem 2.5rem;
 }
+
+@media (min-width: 43.75em) {
+  .intro-section__hero {
+    background-image: url(/src/assets/images/home-hero-tablet.jpg);
+
+    margin: 6rem 0 7.63rem 0;
+  }
+
+  .intro-section__content--hero {
+    padding: 8.56rem 6.13rem 13.56rem 6.06rem;
+  }
+
+  .intro-section__container {
+    gap: 2rem;
+  }
+
+  .intro-section__about {
+    background-image: url(/src/assets/images/about-hero-mobile.jpg);
+
+    padding: 6.5rem 2rem 4.5rem 5.94rem;
+    margin-bottom: 9rem;
+  }
+
+  .intro-section__careers,
+  .intro-section__locations {
+    background-image: url(/src/assets/images/careers-location-hero-mobile.jpg);
+
+    padding: 6.5rem 2rem 4.5rem 5.94rem;
+    margin-bottom: 9rem;
+  }
+
+  .intro-section__heading {
+    font-size: var(--fs-56);
+    line-height: 1;
+    letter-spacing: -0.16rem;
+    text-align: start;
+  }
+
+  .intro-section__heading--hero {
+    text-align: center;
+  }
+}
