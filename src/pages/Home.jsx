@@ -1,6 +1,7 @@
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Process from "../components/Process";
 
 function Home() {
   return (
@@ -25,6 +26,8 @@ function Home() {
             </div>
           </div>
         </section>
+
+        <Process />
 
         <CTA />
       </main>
