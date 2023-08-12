@@ -60,3 +60,29 @@
     }
   }
 }
+
+@media (min-width: 73.44em) {
+  .not-listed-section {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.88rem;
+
+    text-align: start;
+
+    margin: 0 auto 7.5rem auto;
+
+    &__content {
+      flex-direction: row;
+      align-items: start;
+      gap: 2rem;
+    }
+
+    &__heading {
+      max-width: 12ch;
+    }
+
+    &__text {
+      max-width: 46ch;
+    }
+  }
+}
