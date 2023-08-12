@@ -121,3 +121,59 @@
     text-align: center;
   }
 }
+
+@media (min-width: 62.5em) {
+  .intro-section__hero {
+    justify-items: start;
+
+    background-image: url(/src/assets/images/home-hero-desktop.jpg);
+    margin-bottom: 10rem;
+  }
+
+  .intro-section__about {
+    background-image: url(/src/assets/images/about-hero-mobile.jpg);
+
+    text-align: start;
+
+    padding: 6.5rem 2rem 4.5rem 10.31rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .intro-section__careers,
+  .intro-section__locations {
+    background-image: url(/src/assets/images/careers-location-hero-mobile.jpg);
+
+    text-align: start;
+
+    padding: 6.5rem 2rem 4.5rem 10.31rem;
+
+    margin-bottom: 7.5rem;
+  }
+
+  .intro-section__careers {
+    margin-bottom: 7.06rem;
+  }
+
+  .intro-section__content--hero {
+    gap: 2.5rem;
+
+    text-align: start;
+    padding: 9.56rem 6.13rem 9.5rem 2rem;
+  }
+
+  .intro-section__container {
+    justify-items: start;
+    gap: 2.5rem;
+
+    transform: translateX(5.94rem);
+  }
+
+  .intro-section__text {
+    max-width: 46ch;
+  }
+
+  .intro-section__heading,
+  .intro-section__text {
+    text-align: start;
+  }
+}
