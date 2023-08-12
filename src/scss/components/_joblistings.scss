@@ -1,0 +1,52 @@
+.careers-section {
+  max-width: 73.38rem;
+
+  padding: 0 2rem;
+  margin: 0 auto 7.38rem auto;
+
+  &__list {
+    display: grid;
+    gap: 0.81rem;
+
+    &-item {
+      display: grid;
+      gap: 0.94rem;
+
+      text-align: center;
+
+      padding: 2.25rem 2rem 2.25rem 2rem;
+
+      background: var(--neutral-clr-three);
+    }
+
+    &-info {
+      display: grid;
+      gap: 0.25rem;
+
+      text-align: center;
+    }
+
+    &-position {
+      font-family: var(--ff-two);
+      font-weight: var(--ff-700);
+      font-size: var(--fs-18);
+      line-height: 1.33;
+
+      letter-spacing: -0.05rem;
+
+      color: var(--primary-clr-two);
+    }
+
+    &-location {
+      font-family: var(--ff-one);
+      font-weight: var(--fw-400);
+      font-size: var(--fs-15);
+      line-height: 1.67;
+      color: var(--primary-clr-two);
+    }
+
+    &-btn {
+      padding: 0.88rem 3.73rem 0.75rem 3.82rem;
+    }
+  }
+}
