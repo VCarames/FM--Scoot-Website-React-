@@ -1,0 +1,44 @@
+.cta-section {
+  background: #495567;
+
+  padding: 5.5rem 2rem 5.5rem 2rem;
+
+  &__content {
+    max-width: 69.38rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+
+    margin: 0 auto;
+  }
+
+  &__heading {
+    font-family: var(--ff-two);
+    font-weight: var(--ff-700);
+    font-size: var(--fs-32);
+    line-height: 1;
+    letter-spacing: -0.09rem;
+    text-align: center;
+    color: var(--neutral-clr-one);
+  }
+
+  &__download-content {
+    display: flex;
+    gap: 0.81rem;
+  }
+}
+
+.download {
+  cursor: pointer;
+
+  &--apple {
+    max-width: 7.06rem;
+  }
+
+  &--android {
+    max-width: 8.13rem;
+  }
+}

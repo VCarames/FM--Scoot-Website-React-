@@ -10,14 +10,14 @@ function CTA() {
           <div className="cta-section__download-content">
             <a
               href="/"
-              className="donwload download__apple"
+              className="donwload download--apple"
               aria-label="Available in the AppStore"
             >
               <img className="" src={Apple} alt="" />
             </a>
             <a
               href="/"
-              className="donwload download__android"
+              className="donwload download--android"
               aria-label="Get it on GooglePlay"
             >
               <img src={Android} alt="" />
