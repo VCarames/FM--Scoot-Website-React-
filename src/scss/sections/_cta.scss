@@ -55,3 +55,40 @@
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .cta-section {
+    padding: 6.38rem 10.31rem 6.38rem 10.31rem;
+
+    &::before {
+      right: -10.13rem;
+    }
+
+    &__content {
+      flex-direction: row;
+      justify-content: space-between;
+
+      text-align: start;
+    }
+
+    &__heading {
+      max-width: 15ch;
+      font-size: var(--fs-48);
+      line-height: 1;
+      letter-spacing: -0.13rem;
+      text-align: start;
+    }
+
+    &__download-content {
+      gap: 1.13rem;
+    }
+  }
+
+  .download--apple {
+    max-width: 9.94rem;
+  }
+
+  .download--android {
+    max-width: 11.38rem;
+  }
+}
