@@ -86,3 +86,50 @@
     }
   }
 }
+
+@media (min-width: 62.5em) {
+  .benefits-section {
+    flex-direction: column;
+    gap: 9.56rem;
+
+    margin-bottom: 12.5rem;
+
+    &--about {
+      gap: 7.06rem;
+
+      margin-bottom: 7.19rem;
+    }
+
+    &--careers {
+      margin-bottom: 7.5rem;
+    }
+
+    &__content {
+      flex-direction: row-reverse;
+      gap: 12.25rem;
+
+      margin-top: 0.44rem;
+
+      &--alt {
+        flex-direction: row;
+        gap: 13.75rem;
+      }
+
+      &-container {
+        align-items: start;
+        gap: 1.5rem;
+
+        text-align: start;
+
+        &-inner--careers {
+          margin-top: 0;
+        }
+      }
+    }
+
+    &__text {
+      max-width: 49ch;
+      margin-bottom: 0.81rem;
+    }
+  }
+}
