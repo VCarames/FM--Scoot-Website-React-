@@ -79,8 +79,8 @@ function NavBar() {
             </Link>
           </li>
           <li className="header__nav-menu-item" role="listitem">
-            <Link to="/locations" className="header__nav-menu-link">
-              Locations
+            <Link to="/location" className="header__nav-menu-link">
+              Location
             </Link>
           </li>
           <li className="header__nav-menu-item" role="listitem">
