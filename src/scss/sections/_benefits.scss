@@ -1,0 +1,56 @@
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  gap: 7.44rem;
+
+  padding: 0 2rem;
+  margin-bottom: 7.38rem;
+
+  &__content {
+    max-width: 69.38rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+
+    margin: 0 auto;
+  }
+
+  &__img {
+    border-radius: 50%;
+  }
+
+  &__content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    text-align: center;
+  }
+
+  &__heading {
+    max-width: 16ch;
+    font-family: var(--ff-two);
+    font-weight: var(--ff-700);
+    font-size: var(--fs-32);
+    line-height: 1;
+    letter-spacing: -0.09rem;
+    color: var(--primary-clr-two);
+  }
+
+  &__text {
+    max-width: 64ch;
+    font-family: var(--ff-one);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-15);
+    line-height: 1.67;
+    color: var(--primary-clr-four);
+  }
+
+  &__btn {
+    padding: 0.88rem 2.75rem 0.81rem 2.75rem;
+  }
+}
