@@ -15,6 +15,33 @@ function Careers() {
           </div>
         </section>
 
+        <section className="benefits-section benefits-section--careers">
+          <h2 className="visually-hidden">Join Us</h2>
+          <div className="benefits-section__pattern benefits-section__pattern--six">
+            <div className="benefits-section__content benefits-section__content--careers">
+              <img
+                className="benefits-section__img"
+                src="../src/assets/images/join-us.jpg"
+                alt=""
+              />
+              <div className="benefits-section__content-container benefits-section__content-inner--careers">
+                <h3 className="benefits-section__heading">
+                  Care to join our mission?
+                </h3>
+                <p className="benefits-section__text">
+                  We’re always looking for ambitious individuals to help us on
+                  our journey. If you’re passionate about our mission to provide
+                  clean, accessible transport to improve urban living we want to
+                  hear from you!
+                </p>
+                <a href="/" className="benefits-section__btn button">
+                  Say Hello
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <CTA />
       </main>
       <Footer />
