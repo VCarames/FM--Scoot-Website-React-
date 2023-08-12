@@ -10,7 +10,7 @@ function Home() {
       <main>
         <section className="intro-section intro-section__hero">
           <div className="intro-section__content intro-section__content--hero">
-            <h1 className="intro-section__heading intro-section__heading--hero">
+            <h1 className=" intro-section__heading--hero">
               Scooter sharing made simple
             </h1>
             <div className="intro-section__container">
