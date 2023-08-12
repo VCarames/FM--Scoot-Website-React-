@@ -42,3 +42,21 @@
     padding: 0.88rem 2.72rem 0.88rem 2.78rem;
   }
 }
+
+@media (min-width: 43.75em) {
+  .not-listed-section {
+    gap: 2.44rem;
+
+    margin: 0 auto 7.44rem auto;
+
+    &__content {
+      gap: 2.5rem;
+    }
+
+    &__heading {
+      font-size: var(--fs-48);
+      line-height: 1;
+      letter-spacing: -0.13rem;
+    }
+  }
+}
