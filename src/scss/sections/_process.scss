@@ -1,0 +1,53 @@
+.process-section {
+  max-width: 73.38rem;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 2rem;
+  margin-bottom: 7.44rem;
+
+  &__list,
+  &__list-item,
+  &__list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    text-align: center;
+  }
+}
+
+.process-section__list {
+  gap: 3rem;
+
+  &-item img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  &-content {
+    max-width: 21.5rem;
+
+    text-align: center;
+  }
+
+  &-heading {
+    font-family: var(--ff-two);
+    font-weight: var(--ff-700);
+    font-size: var(--fs-20);
+    line-height: 1.4;
+
+    letter-spacing: -0.06rem;
+    color: var(--primary-clr-two);
+  }
+
+  &-text {
+    font-family: var(--ff-one);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-15);
+    line-height: 1.67;
+    color: var(--primary-clr-four);
+  }
+}
