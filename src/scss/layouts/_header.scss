@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  width: 100%;
+
+  background: var(--neutral-clr-one);
+
+  box-shadow: 0 0.13rem 0.25rem var(--box-shadow);
+  transition: box-shadow 0.3s ease;
+
+  &__content {
+    z-index: 10;
+
+    max-width: 73.38rem;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.38rem 2rem 1.31rem 2rem;
+    margin: 0 auto 0 auto;
+  }
+
+  &__logo {
+    width: 4.72rem;
+  }
+}
+
+.scrolled {
+  box-shadow: 0 0.25rem 0.5rem var(--box-shadow-scroll);
+}
