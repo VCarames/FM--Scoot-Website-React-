@@ -50,3 +50,42 @@
     }
   }
 }
+
+@media (min-width: 43.75em) {
+  .careers-section {
+    margin: 0 auto 7.38rem auto;
+    padding: 0 2.5rem 0 2.44rem;
+
+    &__list {
+      display: grid;
+      gap: 1rem;
+
+      &-item {
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        text-align: start;
+
+        padding: 2.13rem 3rem 2.06rem 3rem;
+      }
+
+      &-info {
+        gap: 0.5rem;
+        justify-self: start;
+
+        text-align: start;
+      }
+
+      &-position {
+        font-size: var(--fs-24);
+        line-height: 1.17;
+        letter-spacing: -0.07rem;
+      }
+
+      &-btn {
+        justify-self: end;
+
+        padding: 0.88rem 4.16rem 0.88rem 4.22rem;
+      }
+    }
+  }
+}
