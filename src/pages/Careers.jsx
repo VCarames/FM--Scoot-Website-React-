@@ -1,8 +1,10 @@
+import BenefitsImgSix from "/src/assets/images/join-us.jpg";
+
+import Header from "../components/Header";
+import Values from "../components/Values";
+import JobListings from "../components/JobListings";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
-import JobListings from "../components/JobListings";
-import Values from "../components/Values";
 
 function Careers() {
   return (
@@ -23,7 +25,7 @@ function Careers() {
             <div className="benefits-section__content benefits-section__content--careers">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/join-us.jpg"
+                src={BenefitsImgSix}
                 alt=""
               />
               <div className="benefits-section__content-container benefits-section__content-inner--careers">

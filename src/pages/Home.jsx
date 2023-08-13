@@ -1,7 +1,11 @@
-import CTA from "../components/CTA";
-import Footer from "../components/Footer";
+import BenefitsImgOne from "/src/assets/images/telemetry.jpg";
+import BenefitsImgTwo from "/src/assets/images/near-you.jpg";
+import BenefitsImgThree from "/src/assets/images/payments.jpg";
+
 import Header from "../components/Header";
 import Process from "../components/Process";
+import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -35,7 +39,7 @@ function Home() {
             <div className="benefits-section__content">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/telemetry.jpg"
+                src={BenefitsImgOne}
                 alt=""
               />
               <div className="benefits-section__content-container">
@@ -58,7 +62,7 @@ function Home() {
             <div className="benefits-section__content benefits-section__content--alt">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/near-you.jpg"
+                src={BenefitsImgTwo}
                 alt=""
               />
               <div className="benefits-section__content-container">
@@ -81,7 +85,7 @@ function Home() {
             <div className="benefits-section__content">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/payments.jpg"
+                src={BenefitsImgThree}
                 alt=""
               />
               <div className="benefits-section__content-container">

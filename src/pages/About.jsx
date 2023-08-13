@@ -1,9 +1,12 @@
+import BenefitsImgFour from "/src/assets/images/digital-era.jpg";
+import BenefitsImgFive from "/src/assets/images/better-living.jpg";
+
+import Header from "../components/Header";
+import Values from "../components/Values";
 import AccordionOne from "../components/AccordionOne";
 import AccordionTwo from "../components/AccordionTwo";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Values from "../components/Values";
 
 function About() {
   return (
@@ -24,7 +27,7 @@ function About() {
             <div className="benefits-section__content">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/digital-era.jpg"
+                src={BenefitsImgFour}
                 alt=""
               />
               <div className="benefits-section__content-container">
@@ -43,7 +46,7 @@ function About() {
             <div className="benefits-section__content benefits-section__content--alt">
               <img
                 className="benefits-section__img"
-                src="../src/assets/images/better-living.jpg"
+                src={BenefitsImgFive}
                 alt=""
               />
               <div className="benefits-section__content-container">
