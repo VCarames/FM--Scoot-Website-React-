@@ -10,11 +10,7 @@
   cursor: pointer;
   transition: 0.8s all;
 
-  @media (hover: hover) {
-    &:is(:hover, :focus-visible) {
-      background: var(--neutral-clr-four);
-    }
-  }
+ 
 
   &-heading::-webkit-details-marker {
     display: none;
@@ -76,5 +72,12 @@ details[open] > .accordion__details-heading img {
 
   .accordion__details {
     padding: 2rem 2.5rem 2rem 2.5rem;
+  }
+}
+
+
+@media (hover: hover) {
+  .accordion__details:is(:hover, :focus, :focus-visible) {
+    background: var(--neutral-clr-four);
   }
 }

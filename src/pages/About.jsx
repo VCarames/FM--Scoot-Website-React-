@@ -10,7 +10,7 @@ function About() {
     <>
       <Header />
       <main>
-        <section className="intro-section intro-section__about">
+        <section className="intro-section intro-section--about">
           <div className="intro-section__content intro-section__content--about">
             <h1 className="intro-section__heading intro-section__heading--about">
               About

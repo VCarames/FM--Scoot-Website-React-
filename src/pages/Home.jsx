@@ -8,7 +8,7 @@ function Home() {
     <>
       <Header />
       <main>
-        <section className="intro-section intro-section__hero">
+        <section className="intro-section intro-section--hero">
           <div className="intro-section__content intro-section__content--hero">
             <h1 className="intro-section__heading intro-section__heading--hero">
               Scooter sharing made simple

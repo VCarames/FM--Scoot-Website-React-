@@ -8,7 +8,7 @@ function Locations() {
     <>
       <Header />
       <main>
-        <section className="intro-section intro-section__locations">
+        <section className="intro-section intro-section--locations">
           <div className="intro-section__content intro-section__content--locations">
             <h1 className="intro-section__heading intro-section__heading--locations">
               Locations

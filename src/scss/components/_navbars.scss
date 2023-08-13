@@ -44,7 +44,7 @@
 
 .header__nav-menu {
   position: absolute;
-  top: 3.94rem;
+  top: 4rem;
   left: 0;
   bottom: 0;
   z-index: 4;
@@ -103,7 +103,7 @@
   }
 }
 
-@media (min-width: 43.75em) {
+@media (min-width: 50em) {
   .header__nav {
     width: 100%;
 

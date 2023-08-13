@@ -15,7 +15,7 @@
   border: solid 0.06rem var(--primary-clr-one);
   background: var(--primary-clr-one);
 
-  transition: 0.8s all;
+  transition: var(--transition);
 }
 
 @media (hover: hover) {
