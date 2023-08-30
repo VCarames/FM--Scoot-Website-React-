@@ -1,71 +1,28 @@
+import { Link } from "react-router-dom";
+import careerData from "/public/data/careers";
+
 function JobListings() {
   return (
-    <>
+    <section className="careers-section">
       <ul className="careers-section__list">
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">General Manager</p>
-            <p className="careers-section__list-location">Jakarta, Indonesia</p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">UI/UX Designer</p>
-            <p className="careers-section__list-location">Yokohama, Japan</p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">
-              Blog Content Copywriter
-            </p>
-            <p className="careers-section__list-location">
-              New York, United States
-            </p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">Graphic Designer</p>
-            <p className="careers-section__list-location">
-              New York, United States
-            </p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">Fleet Supervisor</p>
-            <p className="careers-section__list-location">Jakarta, Indonesia</p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
-        <li className="careers-section__list-item">
-          <div className="careers-section__list-info">
-            <p className="careers-section__list-position">UX Analyst</p>
-            <p className="careers-section__list-location">
-              London, United Kingdom
-            </p>
-          </div>
-          <a href="/" className="careers-section__list-btn button">
-            Apply
-          </a>
-        </li>
+        {careerData.careers.map((career) => (
+          <li className="careers-section__list-item" key={career.id}>
+            <div className="careers-section__list-info">
+              <p className="careers-section__list-position">
+                {career.position}
+              </p>
+              <p className="careers-section__list-location">
+                {career.location}
+              </p>
+            </div>
+
+            <Link to="/" className="careers-section__list-btn button">
+              Apply
+            </Link>
+          </li>
+        ))}
       </ul>
-    </>
+    </section>
   );
 }
 

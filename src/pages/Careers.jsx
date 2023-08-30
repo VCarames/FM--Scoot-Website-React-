@@ -47,11 +47,7 @@ function Careers() {
         </section>
 
         <Values />
-
-        <section className="careers-section">
-          <JobListings />
-        </section>
-
+        <JobListings />
         <CTA />
       </main>
       <Footer />
